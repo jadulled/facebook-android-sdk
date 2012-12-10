@@ -2,14 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>tests</artifactId>
-	<packaging>apk</packaging>
+	<groupId>com.zauberlabs.android.facebook.examples</groupId>
+	<artifactId>examples</artifactId>
+	<packaging>pom</packaging>
 
 	<parent>
 		<groupId>com.zauberlabs.android.facebook</groupId>
 		<artifactId>facebook-api-aggregator</artifactId>
 		<version>1.2.1-SNAPSHOT</version>
 	</parent>
+
+	<modules>
+		<module>Hackbook</module>
+		<module>simple</module>
+		<module>stream</module>
+	</modules>
 
 	<dependencies>
 		<dependency>
