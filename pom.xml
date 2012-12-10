@@ -3,7 +3,7 @@
 
     <groupId>com.zauberlabs.android</groupId>
     <artifactId>facebook-api-aggregator</artifactId>
-    <version>1.2.1.525f851b0e</version>
+    <version>1.2.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <!-- required by Android Maven Plugin, also ensures other plugins are pretty new -->
