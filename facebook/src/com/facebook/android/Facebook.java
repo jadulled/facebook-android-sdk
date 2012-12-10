@@ -48,8 +48,6 @@ import android.os.Messenger;
 import android.os.RemoteException;
 import android.text.TextUtils;
 import android.webkit.CookieSyncManager;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 /**
  * Main Facebook object for interacting with the Facebook developer API.
@@ -222,7 +220,7 @@ public class Facebook {
         mAuthDialogListener = listener;
 
         // fire off an auto-attribution publish if appropriate.
-        autoPublishAsync(activity.getApplicationContext());
+        autoPublishAsync(((Context) activity).getApplicationContext());
 
         // Prefer single sign-on, where available.
         if (activityCode >= 0) {

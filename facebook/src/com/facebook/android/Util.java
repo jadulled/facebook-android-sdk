@@ -29,10 +29,10 @@ import java.net.URL;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
 
+import org.holoeverywhere.app.AlertDialog.Builder;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.app.AlertDialog.Builder;
 import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
