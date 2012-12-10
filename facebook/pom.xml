@@ -5,7 +5,7 @@
 	<groupId>com.zauberlabs.android.facebook</groupId>
 	<artifactId>android-facebook-api</artifactId>
 	<packaging>apklib</packaging>
-	<version>1.2.2-SNAPSHOT</version>
+	<version>1.2.2-59c64252294a7300ea4f79a2547c53ec77877e32</version>
 
 	<!-- required by Android Maven Plugin, also ensures other plugins are pretty 
 		new -->
