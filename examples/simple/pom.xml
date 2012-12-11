@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.zauberlabs.android.facebook.examples</groupId>
     <artifactId>simple</artifactId>
-    <version>1.2.1-SNAPSHOT</version>
+    <version>1.2.2-holo-0-SNAPSHOT</version>
     <packaging>apk</packaging>
 
     <!-- required by Android Maven Plugin, also ensures other plugins are pretty new -->
@@ -29,7 +29,7 @@
         <dependency>
             <groupId>com.zauberlabs.android.facebook</groupId>
             <artifactId>android-facebook-api</artifactId>
-            <version>1.2.1.525f851b0e</version>
+            <version>1.2.2-holo-0-SNAPSHOT</version>
             <type>apklib</type>
         </dependency>
     </dependencies>
