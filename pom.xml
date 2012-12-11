@@ -10,6 +10,12 @@
     <prerequisites>
         <maven>3.0.3</maven>
     </prerequisites>
+    
+    <scm>   
+      <connection>scm:git:https://github.com/zauberlabs/facebook-android-sdk.git</connection>
+      <developerConnection>scm:git:git@github.com:zauberlabs/facebook-android-sdk.git</developerConnection>
+      <url>https://github.com/zauberlabs/facebook-android-sdk</url>
+    </scm>
 
     <profiles>
       <profile>
